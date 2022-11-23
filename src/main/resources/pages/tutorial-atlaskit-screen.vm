@@ -1,0 +1,13 @@
+<html lang="en">
+    $webResourceManager.requireResource("ru.alfabank.bcm.bcm-option:tutorial-admin-menu-resources")
+<head>
+    <meta charset="UTF-8">
+    <meta name="admin.active.tab" content="admin-atlaskit-menu-link">
+    <meta name="decorator" content="admin">
+    <meta name="decorator" content="atl.admin">
+    <title>Hagagagag</title>
+</head>
+<body>
+    <div id="container"></div>
+</body>
+</html>
