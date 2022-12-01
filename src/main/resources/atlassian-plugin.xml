@@ -7,11 +7,11 @@
         <param name="plugin-logo">images/pluginLogo.png</param>
     </plugin-info>
 
-    <rest name="Divide" key="testApiRest" path="/myapi" version="1">
+    <rest name="MyApi" key="testApiRest" path="/myapi" version="1">
         <description>Provides necessary API methods for Divide Issue plugin.</description>
     </rest>
 
-    <ao key="ao-entities">
+    <ao key="ao-entities1">
         <description>The module configuring the Divide Issue template Active Objects</description>
         <entity>ru.alfabank.bcm.optionmanagment.model.TeamMember</entity>
         <entity>ru.alfabank.bcm.optionmanagment.model.TeamMemberRole</entity>
