@@ -1,5 +1,6 @@
 package ru.alfabank.bcm.optionmanagment.api;
 
+import com.google.gson.Gson;
 import ru.alfabank.bcm.optionmanagment.dataManagers.ProductManager;
 import ru.alfabank.bcm.optionmanagment.model.Product;
 
@@ -11,7 +12,8 @@ import javax.ws.rs.core.Response;
 @Consumes({MediaType.APPLICATION_JSON})
 @Produces({MediaType.APPLICATION_JSON})
 public class TestApi {
-    private ProductManager productManager;
+    private final ProductManager productManager;
+    Gson gson = new Gson();
 
     public TestApi(ProductManager productManager) {
         this.productManager = productManager;

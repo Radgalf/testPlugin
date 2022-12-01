@@ -13,7 +13,9 @@
 
     <ao key="ao-entities">
         <description>The module configuring the Divide Issue template Active Objects</description>
-        <entity>ru.alfabank.bcm.optionmanagment.model.Product</entity>
+        <entity>ru.alfabank.bcm.optionmanagment.model.TeamMember</entity>
+        <entity>ru.alfabank.bcm.optionmanagment.model.TeamMemberRole</entity>
+        <entity>ru.alfabank.bcm.optionmanagment.model.TeamMemberRolesRel</entity>
     </ao>
 
 </atlassian-plugin>
